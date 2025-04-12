@@ -1,6 +1,6 @@
 package utilities;
 
-public class reusableMethods {
+public class ReusableMethods {
 
     public static void  bekle(int saniye){
 

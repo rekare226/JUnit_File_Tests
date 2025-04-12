@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.time.Duration;
 
-public class testBase_All {
+public class TestBase_All {
 
   protected static WebDriver driver;
   @BeforeAll

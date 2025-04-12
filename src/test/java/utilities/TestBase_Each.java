@@ -2,15 +2,14 @@ package utilities;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class testBase_Each {
+public class TestBase_Each {
 
-    WebDriver driver;
+    protected WebDriver driver;
 
     @BeforeEach
     public void setUp(){
