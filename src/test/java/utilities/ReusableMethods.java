@@ -1,5 +1,10 @@
 package utilities;
 
+import org.openqa.selenium.WebElement;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class ReusableMethods {
 
     public static void  bekle(int saniye){
@@ -14,6 +19,19 @@ public class ReusableMethods {
 
     }
 
+    }
+
+    public static List<String> listiStringListeDondur(List<WebElement> WebElementListesi){
+
+List<String> stringList=new ArrayList<>();
+
+for (WebElement eachElement
+         :WebElementListesi) {
+
+    stringList.add(eachElement.getText());
+   }
+
+return stringList;
     }
 
 }
