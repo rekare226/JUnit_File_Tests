@@ -56,6 +56,13 @@ public class C02_WriteExcel {
         FileOutputStream fileOutputStream=new FileOutputStream(excelDosyaYolu);
         workbook.write(fileOutputStream);
 
+        //dosyayı kapatalım
+
+        //profesyoennlik anlamında fiel ınptlar kapatılır
+
+        fileInputStream.close();
+        fileOutputStream.close();
+        workbook.close();
 
 
 
